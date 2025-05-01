@@ -15,5 +15,6 @@
 
 ## Usage
 <p id="Usage">
-  This program takes a list of gene names (found in "./input", basically a newline-separated list of gene names) in <a href="https://software.broadinstitute.org/cancer/software/gsea/wiki/index.php/Data_formats#GRP:_Gene_set_file_format_.28.2A.grp.29">grp format</a> and an optional <a href="https://www.ncbi.nlm.nih.gov/datasets/docs/v2/api/api-keys/">NCBI API key</a> (also in "./input", which you can generate in your NCBI account settings), and returns a tab-separated list of gene summaries (in the format "Gene\tSummary\n".
+  This program takes a list of gene names (found in "./input", basically a newline-separated list of gene names) in <a href="https://software.broadinstitute.org/cancer/software/gsea/wiki/index.php/Data_formats#GRP:_Gene_set_file_format_.28.2A.grp.29">grp format</a> and an optional <a href="https://www.ncbi.nlm.nih.gov/datasets/docs/v2/api/api-keys/">NCBI API key</a> (also in "./input", which you can generate in your NCBI account settings), and returns a tab-separated list of gene summaries (written to "./output", in the format "Gene\tSummary\n").<br>
+  WARNING: I've only tested this program in Windows, so the command line arguments might not work in other operating systems.
 </p>
